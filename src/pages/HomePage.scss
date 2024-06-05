@@ -1,0 +1,64 @@
+.page-container {
+  width: 100%;
+  padding-top: 5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* Centers items vertically */
+  box-sizing: border-box;
+  justify-content: center;
+  }
+
+.intro-section{
+  padding-top: 1rem;
+  text-align: left;
+  width: 40%;
+  h1{font-size: 4rem;
+  }
+  h2{
+    margin-top:1rem;
+    font-size: 2rem;
+  }
+  p{
+    margin-top:1rem;
+  }
+  .page-description{
+    margin-right: 0;
+    padding-top: 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* Distributes space between items */
+    flex-wrap: wrap;
+  }
+}
+
+.logo-section{
+  width: 40%;
+  ;
+  img{
+    width: 100%;
+  }
+}
+
+.buttons-div{
+  display: flex;
+  margin: 1rem;
+  gap:3rem;
+}
+
+.links-section {
+  margin-top: 20rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+.links-section a {
+  color: #0e76a8; /* LinkedIn blue color */
+  text-decoration: none;
+
+}
+
+.links-section a:hover {
+  color: #084d6e; /* Darker shade on hover */
+}
+

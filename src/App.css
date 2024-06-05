@@ -1,5 +1,4 @@
 #root {
-  max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
@@ -39,4 +38,28 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.page-button{
+  background-color: var(--second-color);
+  color: var(--title-color);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: color 0.4s;
+  padding: 0.75rem 1.5rem;
+}
+
+.page-button:hover{
+  color: rgb(0, 0, 0);
+}
+
+.main-content {
+  flex: 1;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
 }
