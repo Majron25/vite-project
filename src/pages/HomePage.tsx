@@ -9,12 +9,19 @@ const HomePage = () => {
         <h1>Hi! I m Filip</h1>
         <h2>I m a Web Developer</h2>
         <p>
-          I'm a freash Graduate Web Developer in total needs of a new workplace,
-          this one is toxic asf futheremosdsahdis
+          I'm a Swinburne University graduate, honing my skills as a Web
+          Developer. With a passion for crafting digital experiences.
         </p>
         <div className="buttons-div">
           <button className="page-button">About Me</button>
-          <button>My Projects</button>
+          <button className="page-button-projects">
+            My Projects <i className="fas fa-chevron-right"></i>
+          </button>
+        </div>
+        <div className="resume-link">
+          <a href="/Filip_Tlatlik_Resume_2024.pdf" download="FilipResume.pdf">
+            <h2>Get My Resume Here!</h2>
+          </a>
         </div>
         <div className="page-description">
           <div>
@@ -29,9 +36,6 @@ const HomePage = () => {
             <p>Date of Birth</p>
             <h2>Oct 1999</h2>
           </div>
-        </div>
-        <div style={{ textAlign: "center" }}>
-          <h2>Get My Resume Here!</h2>
         </div>
       </div>
       <div className="logo-section">
