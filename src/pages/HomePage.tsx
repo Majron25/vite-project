@@ -20,7 +20,7 @@ const HomePage = () => {
         </div>
         <div className="resume-link">
           <a href="/Filip_Tlatlik_Resume_2024.pdf" download="FilipResume.pdf">
-            <h2>Get My Resume Here!</h2>
+            <h2>Get My Resume Here! </h2>
           </a>
         </div>
         <div className="page-description">
